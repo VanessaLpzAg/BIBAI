@@ -1,0 +1,147 @@
+/* Fondo en degradado */
+.stApp {
+    background: linear-gradient(135deg, #b9252f, #be1e28, #960a16, #40060c);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+/* Asegurar que todos los botones sean blancos con texto negro */
+.stButton > button, [data-testid="stFormSubmitButton"] button {
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black !important;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover */
+.stButton > button:hover, [data-testid="stFormSubmitButton"] button:hover {
+    background-color: #f0f0f0 !important;
+    transform: scale(1.05);
+}
+
+
+/* Imagen en la esquina izquierda en la página de login */
+.login-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Ajusta el tamaño según necesites */
+    height: auto;
+}
+
+/* Imagen en la barra de menú en la página del dashboard */
+.sidebar-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 120px; /* Ajusta el tamaño */
+    height: auto;
+}
+
+/* Cabecera en negro */
+.header {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+}
+
+/* Eliminamos el rectángulo blanco */
+.subheader {
+    display: none;
+}
+
+/* Sidebar en negro */
+[data-testid="stSidebar"] {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Estilo de los selectbox en sidebar */
+[data-testid="stVerticalBlock"] > div[style*="flex-direction: column"] > div[class*="selectbox"] {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Todos los botones blancos con texto negro */
+.stButton > button {
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover en botones */
+.stButton > button:hover {
+    background-color: #f0f0f0 !important;
+    transform: scale(1.05);
+}
+
+/* Botón de cerrar sesión */
+.css-1d391kg button {
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Input de texto */
+.stTextInput input, .stTextArea textarea {
+    font-family: 'Arial', sans-serif;
+    color: black !important;
+    background-color: white !important;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Placeholder en negro */
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: black !important;
+    opacity: 1 !important;
+}
+
+/* Mensajes de chat en negro */
+[data-testid="stChatMessageContent"] p,
+[data-testid="stMarkdownContainer"] p,
+.stMarkdown p {
+    color: black !important;
+}
+
+/* Input del chat */
+[data-testid="stChatInput"] textarea {
+    color: black !important;
+    background-color: white !important;
+    border: 2px solid black;
+}
+
+
+/* Efecto hover */
+[data-testid="stSidebar"] .stDownloadButton > button:hover {
+    background-color: #f0f0f0 !important;
+    transform: scale(1.05);
+}
+
+/* Efecto al hacer click */
+[data-testid="stSidebar"] .stDownloadButton > button:active {
+    background-color: #e0e0e0 !important;
+}
+
+/* Texto del botón */
+[data-testid="stSidebar"] .stDownloadButton > button span {
+    color: black !important;
+    font-weight: bold;
+}
